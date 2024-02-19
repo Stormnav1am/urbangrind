@@ -1,0 +1,92 @@
+@media screen and (max-width: 800px) {
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+  }
+
+  #logo img {
+    width: 50px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+  #title {
+    position: relative;
+    top: 350px;
+    float: right;
+    font-size: 10px;
+    writing-mode: vertical-rl; /* vertical right-to-left */
+    text-orientation: upright;
+  }
+
+  #title1 {
+    position: relative;
+    top: 10px;
+    float: left;
+    font-size: 10px;
+    writing-mode: vertical-rl; /* vertical right-to-left */
+    text-orientation: upright;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+  }
+
+  .shop-now-button {
+    position: relative;
+    left: 215px;
+    top: 70px;
+    color: #defbf6;
+    /* background-color: rgb(69, 42, 165); */
+    background-color: #599275;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+  }
+
+  #desc {
+    position: relative;
+    top: 50px;
+    left: 30px;
+    font-size: 10px;
+    text-align: justify;
+  }
+
+  .bgim {
+    background-image: url("bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+  }
+
+  .bg2 {
+    background-image: url("pet.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+
+  }
+
+}
+
